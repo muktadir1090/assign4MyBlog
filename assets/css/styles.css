@@ -19,24 +19,11 @@ body {
 
 ​h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-size: 100%;
 }
 
-​input,
-select,
-option,
-optgroup,
-textarea,
-button,
-pre,
-code {
-  font-size: 100%;
-  font-family: inherit;
-}
+
 
 ​ol,
 ul {
@@ -70,7 +57,7 @@ header {
 
 header,
 footer {
-  padding: 2rem;
+  padding: 4rem;
 }
 
 main {
