@@ -1,4 +1,5 @@
 const formEl = document.querySelector('form');
+console.log("test",formEl)
 
 const handleFormSubmit = function (event) {
   event.preventDefault();

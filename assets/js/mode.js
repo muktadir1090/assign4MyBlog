@@ -1,4 +1,4 @@
-const modeBtnEl = document.querySelector('#toggle');
+const modeBtnEl = document.querySelector('#theme-switcher');
 
 const applyMode = function (mode) {
   let icon, circleColor;
@@ -12,7 +12,7 @@ const applyMode = function (mode) {
     circleColor = '#8570a5';
   }
 
-  modeBtnEl.textContent = icon;
+  //modeBtnEl.textContent = icon;
 
   document.body.classList = mode;
 
