@@ -1,39 +1,26 @@
 # assign4MyBlog
 # Personal Blog Website
+# Personal Blog
 
-## Project Overview
+## Description
+This is a personal blog application designed for marketing students to showcase their thoughts and experiences. The blog features a form to input blog posts, localStorage persistence for storing entries, and a light/dark mode toggle to customize the appearance.
 
-This project involves creating a two-page website where users can input and view blog posts. The application includes a content form for submitting posts, dynamically renders blog posts, and provides a light/dark mode toggle. This challenge is a great way to gain hands-on experience with JavaScript, the Document Object Model (DOM), and web development concepts.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## User Story
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/personal-blog.git
 
-```md
-AS A marketing student,
-I WANT a personal blog
-SO THAT I can showcase my thoughts and experiences.
-GIVEN a personal blog
-WHEN I load the app,
-THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
+2.	Open the project folder:
+
+cd personal-blog
 
 
 File Structure
@@ -50,27 +37,39 @@ my-blog
 ├── index.html
 ├── blog.html
 └── README.md
-3.	Open index.html in Your Web Browser
-This will display the landing page where you can input new blog entries.
-	4.	Use the Form
-Fill out the form with a username, blog title, and content. Upon submission, the data will be saved to localStorage and you will be redirected to blog.html.
-	5.	View and Manage Blog Posts
-On the blog.html page, you can view the list of blog posts, toggle between light and dark modes, and use the “Back” button to return to the landing page.
+3.	Open the index.html file in your browser.
 
-Technologies Used
+No additional installations are required since this is a front-end application using localStorage for data persistence.
 
-	•	HTML
-	•	CSS
-	•	JavaScript
+## Screenshots
+![alt text](<Screenshot 2024-10-07 at 12.42.00 AM.png>)
+![alt text](<Screenshot 2024-10-07 at 12.54.38 AM.png>)
+![alt text](<Screenshot 2024-10-07 at 12.52.33 AM.png>)
+![alt text](<Screenshot 2024-10-07 at 12.53.16 AM.png>)
 
-Contributing
 
-Feel free to fork the repository and submit pull requests with improvements or bug fixes. Ensure you follow the existing code style and conventions.
+## Usage
 
-License
+	1.	Landing Page: On loading the application, you will be presented with a form to create a new blog post. The form requires a username, blog title, and content.
+	2.	Submit Post: After filling out the form and submitting, the blog data will be saved to localStorage, and you will be redirected to the posts page.
+	3.	Posts Page: This page displays a list of blog posts saved in localStorage, including the username, title, and content of each post.
+	4.	Form Validation: If you attempt to submit the form without completing all fields, an error message will prompt you to fill in the missing information.
+	5.	Light/Dark Mode: A toggle button allows switching between light and dark modes for customizing the appearance of the blog.
+	6.	Back Button: On the posts page, you can click the “Back” button to return to the landing page and add more blog entries.
+
+## Features
+
+	•	Form for Blog Posts: Inputs for username, title, and blog content with validation.
+	•	LocalStorage: Blog posts are stored in the browser’s localStorage for persistence.
+	•	Light/Dark Mode Toggle: Users can switch between light and dark themes.
+	•	Post Listing: The posts page displays all saved blog posts with the author, title, and content.
+	•	Responsive Design: The app is designed to work across different devices and screen sizes.
+	•	Footer with Portfolio Link: A link to the developer’s portfolio is included in the footer.
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests. Contributions are welcome for improving features, bug fixes, or adding new functionality.
+
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-
-For any questions or suggestions, please contact Your Name.
